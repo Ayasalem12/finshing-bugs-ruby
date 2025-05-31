@@ -1,0 +1,7 @@
+<h1><%= @user.name %></h1>
+<p><%= @user.DOB %></p>
+<p><%= @user.email %></p>
+<p><%= @user.phone_number %></p>
+<p><%= @user.address %></p>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
